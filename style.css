@@ -1,0 +1,91 @@
+html {
+	background-image: url("pictures/starsbg.gif");
+}
+
+body {
+	background-color: #24273a;
+	opacity: 90%;
+	font-family: monospace;
+	font-size: 125%;
+	color: #eee;
+	max-width: 66%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 32px;
+	padding-bottom: auto;
+	border: dotted;
+	border-radius: 16px;
+}
+
+div {
+	display: block;
+}
+
+h1 {
+	text-align: center;
+	color: #f5bde6;
+}
+
+h2 {
+	color: #eed49f;
+}
+
+h3 {
+	color: #8bd5ca;
+}
+
+a {
+	color: #8aadf4;
+}
+
+a:hover {
+	color: #f5bde6;
+	animation-name: fade;
+	animation-duration: 1s;
+}
+
+.imgctr {
+	text-align: center;
+}
+
+.img {
+	text-align: center;
+	height: 378px;
+	float: center;
+}
+
+.linkhub {
+	background-color: #24273a;
+	padding: 24px;
+	text-align: center;
+}
+
+.link {
+	font-color: ##8aadf4;
+	font-size: x-large;
+	border-color: #cad3f5;
+	border-style: dashed;
+	border-radius: 8px;
+	padding: 8px;
+	color: #8aadf4;
+}
+
+@keyframes fade {
+	0% {color: #8aadf4;}
+	50% {color: #eed49f;}
+	100% {color: #f5bde6;}
+}
+
+@keyframes trans {
+	0% {color: #8aadf4;}
+	25% {color: #f5bde6;}
+	50% {color: #cad3f5;}
+	75% {color: #f5bde6;}
+	100% {color: #8aadf4;}
+}
+
+.trans {
+	animation-name: trans;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
